@@ -1,0 +1,32 @@
+const String lblLearn = 'Learn languages from';
+const String lblAfrica = 'Africa';
+const String lblMutaHelps = 'Muta helps you learn African languages in the easiest way';
+const String lblGetStated = 'get started';
+const String lblLogin = 'Log in';
+const String lblLoginDecs = 'Log in to Muta';
+const String lblByContinuing = 'By continuing on this app, you agree to Muta’s';
+const String lblEnglish = 'I speak English';
+const String lblFrancais = 'Je parle Français';
+const String lblPortugues = 'Eu falo Português';
+const String lblEspanol = 'Yo hablo Español';
+const String lblContinue = 'Continue';
+const String lblWantToLearn = 'I want to learn...';
+const String lblProficiency = 'How would you rate your proficiency in Yoruba?';
+const String lblRegister = 'Sign up and start learning right away!';
+const String lblGoogle = 'sign up with google';
+const String lblFacebook = 'sign up with facebook';
+const String lblWithEmail = 'sign up with email';
+const String lblEmail = 'Enter email address';
+const String lbllogWithEmail = 'log in with email';
+const String lblEmailName = 'Enter name and password';
+const String lblEnterPassword = 'Enter your password';
+const String lblFirstName = 'First Name';
+const String lblLastName = 'Last Name';
+const String lblPass = 'Password';
+
+const String lblSignUp = 'Sign Up';
+const String lblHaveAcct = 'Already a Muta user? ';
+const String lblDntHaveAcct = "Don’t have a Muta account? ";
+const String lblForgotPass = 'Forgot your password?';
+
+const String kLoginError = 'Incorrect credentials.';
