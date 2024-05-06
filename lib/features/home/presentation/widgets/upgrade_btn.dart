@@ -1,33 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:muta_test/core/constants/assets_constant.dart';
 import 'package:muta_test/core/constants/colors_constant.dart';
 import 'package:muta_test/core/widgets/generic_text.dart';
 import 'package:muta_test/core/widgets/row_sized_box.dart';
 
-class SocialAuth extends StatelessWidget {
-  final String title;
-  final String image;
-  const SocialAuth({super.key, required this.title, required this.image});
+class UpgradeBtn extends StatelessWidget {
+  const UpgradeBtn({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 54.h,
       width: MediaQuery.of(context).size.width,
-      padding: EdgeInsets.symmetric(horizontal: 25.w),
+      padding: EdgeInsets.symmetric(horizontal: 20.w),
       decoration: BoxDecoration(
-        color: white,
-        borderRadius: BorderRadius.circular(8.r),
+        color: lightGreen,
+        borderRadius: BorderRadius.circular(30.r),
       ),
       child: Row(
         children: [
-          SvgPicture.asset(image),
-          RowSizedBox(25.w),
+          SvgPicture.asset(unlock),
+          RowSizedBox(10.w),
           GenericText(
-            text: title.toUpperCase(),
-            size: 12.sp,
-            weight: FontWeight.w700,
+            text: 'Upgrade now to unlock all lessons',
+            size: 13.sp,
+            weight: FontWeight.w500,
+            color: black,
           ),
         ],
       ),

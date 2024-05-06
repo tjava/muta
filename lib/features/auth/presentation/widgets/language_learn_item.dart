@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:muta_test/core/constants/colors_constant.dart';
 import 'package:muta_test/core/widgets/column_sized_box.dart';
 import 'package:muta_test/core/widgets/generic_text.dart';
@@ -34,7 +35,7 @@ class LanguageLearnItem extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
+            SvgPicture.asset(
               flag,
               color: selected ? appGreen : grey,
             ),

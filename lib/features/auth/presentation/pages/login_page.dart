@@ -1,3 +1,4 @@
+import 'package:flutter_svg/svg.dart';
 import 'package:muta_test/core/constants/assets_constant.dart';
 import 'package:muta_test/core/constants/colors_constant.dart';
 import 'package:muta_test/core/widgets/column_sized_box.dart';
@@ -48,9 +49,12 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: GestureDetector(
-          onTap: () => context.back(),
-          child: Image.asset(back),
+        leading: Padding(
+          padding: const EdgeInsets.all(12),
+          child: GestureDetector(
+            onTap: () => context.back(),
+            child: SvgPicture.asset(back),
+          ),
         ),
       ),
       body: SafeArea(

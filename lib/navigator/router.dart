@@ -48,9 +48,23 @@ class AppRouter extends $AppRouter {
       path: '/completeRegister',
     ),
     AutoRoute(
-      page: HomeRoute.page,
-      path: '/home',
+      page: LayoutRoute.page,
+      path: '/layout',
       guards: [AuthGuard()],
+      children: [
+        AutoRoute(
+          page: NewHomeRoute.page,
+          path: '',
+        ),
+        AutoRoute(
+          page: HomeRoute.page,
+          path: 'learn',
+        ),
+        AutoRoute(
+          page: HomeRoute.page,
+          path: 'LiveSession',
+        ),
+      ],
     ),
   ];
 }

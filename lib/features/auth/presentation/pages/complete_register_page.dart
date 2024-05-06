@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:muta_test/core/constants/assets_constant.dart';
 import 'package:muta_test/core/constants/colors_constant.dart';
 import 'package:muta_test/core/domain/entities/country_entity.dart';
@@ -95,9 +95,12 @@ class _CompleteRegisterPageState extends State<CompleteRegisterPage> {
         builder: (context, state) {
           return Scaffold(
             appBar: AppBar(
-              leading: GestureDetector(
-                onTap: () => context.back(),
-                child: Image.asset(back),
+              leading: Padding(
+                padding: const EdgeInsets.all(12),
+                child: GestureDetector(
+                  onTap: () => context.back(),
+                  child: SvgPicture.asset(back),
+                ),
               ),
             ),
             body: SafeArea(
