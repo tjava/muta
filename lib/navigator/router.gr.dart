@@ -10,7 +10,6 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i12;
 import 'package:flutter/material.dart' as _i13;
-import 'package:flutter/widgets.dart' as _i14;
 import 'package:muta_test/features/auth/presentation/pages/complete_login_page.dart'
     as _i1;
 import 'package:muta_test/features/auth/presentation/pages/complete_register_page.dart'
@@ -163,7 +162,7 @@ class CompleteLoginRouteArgs {
 class CompleteRegisterRoute
     extends _i12.PageRouteInfo<CompleteRegisterRouteArgs> {
   CompleteRegisterRoute({
-    _i14.Key? key,
+    _i13.Key? key,
     required String email,
     List<_i12.PageRouteInfo>? children,
   }) : super(
@@ -187,7 +186,7 @@ class CompleteRegisterRouteArgs {
     required this.email,
   });
 
-  final _i14.Key? key;
+  final _i13.Key? key;
 
   final String email;
 

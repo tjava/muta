@@ -1,16 +1,15 @@
-# muta_test
+# muta
 
-A new Flutter project.
+### Muta: An African language learning platform built with Flutter, adhering to clean architecture and industry standards. Dive into the rich linguistic heritage of Africa with a seamless and engaging user experience.
 
-## Getting Started
+<p align="center">
+  <a href="">
+    <img alt="muta" src="https://raw.githubusercontent.com/tjava/muta/master/assets/images/onboard.png" width="1200">
+  </a>
+</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p align="center">
+  <a href="">
+    <img alt="muta" src="https://raw.githubusercontent.com/tjava/muta/master/assets/images/home.png" width="1200">
+  </a>
+</p>
